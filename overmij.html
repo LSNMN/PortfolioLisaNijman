@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+    </style>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap');
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Inknut+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/portfolio.css">
+    <title>Portfolio Lisa Nijman</title>
+</head>
+
+<body>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="overmij.html">Wie ben ik</a>
+            <a href="kunst.html">Kunst</a>
+            <a href="werk.html">Werk</a>
+            <a href="">------</a>
+            <a href="www.instagram.com/lisanijman.art">Instagram</a>
+            <a href="https://www.linkedin.com/in/lisa-nijman-7710911b2/">LinkedIn</a>
+            <a href="https://www.facebook.com/LisaNijmanArt">Facebook</a>
+             <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <!-- javascript voor de mobile first, nav word kleiner en makkelijker weer gegeven. Js moet in html om te werken ??-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
+
+    <section class="lisatwee">
+        <div class="flex-container">
+            <div id="bovenaan">
+                <figure>
+                    <img class="portret" src="img/Portret_zwartwit.jpg" alt="timeline">
+                    <figcaption> Lisa Nijman</figcaption>
+                </figure>
+            </div>
+            <div>
+                <h2>
+                    Wie ben ik?
+                </h2>
+                <p>Hoi, mijn naam is Lisa Nijman. Ik ben 20 jaar oud en woonachtig in Uitgeest, Nood Holland. Ik ben een tweedejaars student in Amsterdam aan de Hogeschool van Amsterdam, op de opleiding Communication, Mulitmedia and Design (CMD). Bij CMD heb ik in mijn eerste jaar mijn propeduese gehaald. Nadat ik mijn middelbare school afgerond had met een VWO-diploma ben ik eerst een jaar gaan studeren in Utrecht. Ik volgde de opleiding Illustration aan de Hogeschool voor de kunsten Utrecht (HKU), ook heb ik voor deze opleiding mijn propedeuse gehaald. Na dit jaar ben ik begonnen bij CMD in Amsterdam.
+                </p>
+                <br />
+                <p>
+                    Ik leer snel en ben flexibel in nieuwe situaties. Ik ben beleefd, klantvriendelijk en geduldig. Daarnaast ben ik behulpzaam, creatief en ambitieus. Een echte doorzetter en gedisciplineerd wanneer dat nodig is. Ik ben enthousiast en betrokken in het werk wat ik doe.
+                </p>
+            </div>
+        </div>
+
+
+        <footer id="contact">
+            <h2>nog vragen? <br />
+            vind mij hier lisanijman@live.nl <br />
+        </h2>
+            <p>designed & developed by lisa nijman 2020</p>
+        </footer>
+
+
+</body>
+
+</html>

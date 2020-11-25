@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+    </style>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Inknut+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/portfolio.css">
+    <title>Portfolio Lisa Nijman</title>
+</head>
+
+<body>
+    <nav>
+         <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="overmij.html">Wie ben ik</a>
+            <a href="kunst.html">Kunst</a>
+            <a href="werk.html">Werk</a>
+            <a href="">------</a>
+            <a href="www.instagram.com/lisanijman.art">Instagram</a>
+            <a href="https://www.linkedin.com/in/lisa-nijman-7710911b2/">LinkedIn</a>
+            <a href="https://www.facebook.com/LisaNijmanArt">Facebook</a>
+             <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <!-- javascript voor de mobile first, nav word kleiner en makkelijker weer gegeven. Js moet in html om te werken ??-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <header class="werk">
+        <h1>Communication Multimedia and Design</h1>
+        <h2>CMD - Amsterdam</h2>
+        <h3>Hogeschool van Amsterdam</h3>
+    </header>
+
+
+    <section class="J2" id="J2">
+        <h3>Jaar 2 - Recentse werk</h3>
+        <div class="flex-container">
+            <div class="projectbeyond">
+                <h4>Project Beyond - Teamverband</h4>
+                <p>Case: Telefoon irritaties <br /> De telefoon neemt ons leven over en is niet meer weg te denken. Elk moment van de dag kijken we naar foto’s op Instagram, berichten op Facebook of lezen we het nieuws online. Op sommige momenten is dit niet wenselijk, zoals bij het uitgaan met je vrienden. Niet alleen kijken we op ons telefoon als we niks te doen hebben, ook als we iets zouden moeten doen kijken we toch. We raken afgeleid, afwezig en asociaal, tot ergernis van onze omgeving.</p>
+            </div>
+            <!-- 1 buttons om de pdfs te bekijken -->
+            <div> <iframe src="pdf/205_Team5_projectBeyond.pdf" frameborder="0"></iframe></div>
+        </div>
+
+        <div class="flex-container">
+            <div class="contentdelivery" id="cd">
+                <h4>Content Delivery - Teamverband</h4>
+                <p>Case: Afval verminderen rond gebouwen. <br /> Zwerfafval is een groot probleem en heeft een negatieve impact op zowel dier, mens en natuur. Daarnaast zijn er genoeg andere redenen om dit probleem aan te pakken. Wij gaan ons focussen op zwerfafval rond het Theo Thijssenhuis, een locatie van de HvA. Lees ons onderzoek in het pdf bestand hiernaast. </p>
+            </div>
+            <div> <iframe src="pdf/205_team3_eindverslag_v1.0.pdf" frameborder="0"></iframe></div>
+        </div>
+
+        <div class="flex-container">
+            <div class="ubicomp" id="ubi">
+                <h4>Ubicomp - Individueel</h4>
+                <p>Case: Zorg ervoor dat de gebruiker niet te lang achter zijn laptop zit. <br /> Nu iedereen thuis zit met corona werkt of studeert ook vrijwel iedereen vanuit huis. Dit gebeurt vaak achter een laptop of computer, waarbij de houding van de gebruiker niet altijd even goed is. Daarbij zit de gebruiker vaak te lang achter zijn computer. Lees in het PDF hiernaast hoe ik het oplossen van dit probleem heb aangepakt. </p>
+            </div>
+            <div><iframe src="pdf/klas205-LisaNijman.pdf" frameborder="0"></iframe></div>
+        </div>
+    </section>
+
+    <section class="J1" id="J1">
+        <h3>Jaar 1 - Archief</h3>
+        <div class="flex-container">
+            <div class="maatschapijinteractie">
+                <h4>Maatschappij en Interactie - Individueel</h4>
+                <p>Onderzoek een dienst en hoe deze van invloed is op de gebruiker en de maatschappij. In het onderzoek hiernaast heb ik mij gefocust op de dienst Spotify. Waarbij ik gekeken heb naar alle methodes die Spotify gebruikt om jou als gebruiker 'verslaafd' te houden aan hun app. </p>
+            </div>
+            <div><iframe src="pdf/Lisa.Nijman.Grafiet.M&IProcesboek.pdf" frameborder="0"></iframe></div>
+        </div>
+
+        <div class="flex-container">
+            <div class="passieproject" id="pp">
+                <h4>Passie Project - Teamverband</h4>
+                <p>Bij dit project mochten wij in duo's of individueel een project bedenken wat wij graag zouden willen doen. Ik vormde een duo met Emma Kengen en wij gingen op onderzoek uit hoe je het beste een webshop kan opzetten. </p>
+            </div>
+            <div> <iframe src="pdf/Productbiografie%20Project%20Passie.pdf" frameborder="0"></iframe> </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="ia" id="ia">
+                <h4>Informatie Architectuur - Individueel</h4>
+                <p>Omroep Max vraagt jou om de begeleidende web, iOS óf Android app te ontwerpen
+                    voor het vinden van workshops en het indienen en beoordelen van baksels. De app moet
+                    alle doelen helemaal ondersteunen. <br />
+                    Nb. Je hoeft geen rekening te houden met de huidige websites en apps van de HHB.</p>
+            </div>
+            <div> <iframe src="pdf/Lisa.Nijman.Grafiet.HHB.IA.1.0V.pdf" frameborder="0"></iframe> </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="webapplicaties" id="wa">
+                <h4>Webapplicaties - Individueel</h4>
+                <p>Case: Bouw en onderbouw een webapplicatie voor een sportschool genaamd EAZYF!T. Onderbouw door middel van een video die je naar de klant gaat sturen, waarom dit de beste keuze is voor jouw klant. </p>
+            </div>
+            <div> <iframe src="vid/Lisa.Nijman.Grafiet.Webapp.Video.M3.mp4" frameborder="0"></iframe></div>
+        </div>
+
+        <div class="flex-container">
+            <div class="isga" id="isga">
+                <h4>ISGA App - Individueel</h4>
+                <p>Ontwerp een app gebaseerd op de International Student Guide Amsterdam.</p>
+            </div>
+            <div> <iframe src="pdf/documentatie-Lisa.Nijman.Grafiet.pdf" frameborder="0"></iframe> </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="npd" id="npd">
+                <h4>New Product Development</h4>
+                <p></p>
+            </div>
+            <div> <iframe src="pdf/Ontwerphandleiding.Lisa.Nijman.Grafiet.pdf" frameborder="0"></iframe>
+                <iframe src="pdf/Productbiografie.DeHomeschoolers.Grafiet.NPD.pdf" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="hci" id="hci">
+                <h4>Human Computer Interaction - Individueel</h4>
+                <p>Ontwerp een website voor verkoop van Pinata's. Doe dit met pen en papier.</p>
+            </div>
+            <div> <iframe src="pdf/HCI_eindopdracht_Lisa_Nijman_Grafiet.pdf" frameborder="0"></iframe> </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="ucd" id="ucd">
+                <h4>User Centered Design - Individueel</h4>
+                <p></p>
+            </div>
+            <div> <iframe src="pdf/Lisa.Nijman.POSTER.pdf" frameborder="0"></iframe>
+                <iframe src="pdf/Lisa.Nijman.PROCESVERSLAG.pdf" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="content" id="content">
+                <h4>Content - Teamverband</h4>
+                <p>Ga opzoek naar een 'lelijke' website en bedenk een nieuw ontwerp om deze website een goed werkendende interactie te geven en een goed uitziend design.</p>
+            </div>
+            <div><iframe src="pdf/Ties.Lisa.Emma.Lou.Grafiet.clubstalker_website.pdf" frameborder="0"></iframe>
+                <iframe src="pdf/Ties.Lisa.Emma.Lou.Grafiet.Procesboek.pdf" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>any questions? <br />
+            find me here lisanijman@live.nl <br />
+        </h2>
+        <p>designed & developed by lisa nijman 2020</p>
+    </footer>
+
+</body></html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+    </style>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Inknut+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/portfolio.css">
+    <title>Portfolio Lisa Nijman</title>
+</head>
+
+<body>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="overmij.html">Wie ben ik</a>
+            <a href="kunst.html">Kunst</a>
+            <a href="werk.html">Werk</a>
+            <a href="">------</a>
+            <a href="www.instagram.com/lisanijman.art">Instagram</a>
+            <a href="https://www.linkedin.com/in/lisa-nijman-7710911b2/">LinkedIn</a>
+            <a href="https://www.facebook.com/LisaNijmanArt">Facebook</a>
+             <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <!-- javascript voor de mobile first, nav word kleiner en makkelijker weer gegeven. Js moet in html om te werken ??-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <header class="homepagina">
+        <div class="top">
+            <h1>Hi, mijn naam is <br /> Lisa Nijman</h1>
+
+            <ul>
+                <li> _Graphic & UX & Visual designer</li>
+                <li>_Student aan de Hogeschool van Amsterdam</li>
+                <li>_Propedeuse in Illustration aan de HKU</li>
+                <li>_Propedeuse in Communication, Multimedia and Design at HvA</li>
+                <li>_Art Portfolio </li>
+            </ul>
+            <a href="https://www.linkedin.com/in/lisa-nijman-7710911b2/" class="buttontop">add me on linkedin</a>
+        </div>
+
+
+    </header>
+
+    <section class="blokjes">
+       <!-- eerste foto van de rij -->
+       <div class="flex-container2">
+        <div class="container">
+            <img src="img/inktober_mam.jpg" alt="inktobertekening" class="image" style="width:100%">
+            <div class="middle">
+                <a href="kunst.html"><div class="text">RECENT <br />Inktober 2020</div></a>
+            </div>
+        </div>
+         <!-- tweede foto van de rij -->
+             <div class="container">
+            <img src="img/portret2.png" alt="inktobertekening" class="image" style="width:100%">
+            <div class="middle">
+                <a href="kunst.html"><div class="text">Kunst Werk</div></a>
+            </div>
+        </div>
+         <!-- derde foto van de rij -->
+             <div class="container">
+            <img src="img/logocmd.jpg" alt="inktobertekening" class="image" style="width:100%">
+            <div class="middle">
+                <a href="werk.html"><div class="text">CMD Werk</div></a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="lisa">
+        <div class="flex-container">
+            <div class="tekst">
+                <h2>
+                    Wie ben ik?
+                </h2>
+                <p>Mijn naam is Lisa Nijman, 20 jaar en studente aan de Hogeschool van Amsterdam op de opleiding Communication, Multimedia and Design!
+                </p>
+                <a href="overmij.html" class="button">beter leren kennen</a>
+            </div>
+
+
+
+
+            <!--right column-->
+            <div>
+                <figure>
+                    <img class="portret" src="img/Portret_zwartwit.jpg" alt="timeline">
+                    <figcaption> Lisa Nijman</figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="contact">
+        <h2>nog vragen? <br />
+            vind mij hier lisanijman@live.nl <br />
+        </h2>
+        <p>designed & developed by lisa nijman 2020</p>
+    </footer>
+
+</body></html>
