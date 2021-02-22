@@ -7,12 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap');
+
     </style>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap');
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Inknut+Antiqua&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
@@ -21,157 +19,190 @@
 </head>
 
 <body>
-    <nav>
-         <div class="topnav" id="myTopnav">
-            <a href="index.html" class="active">Home</a>
-            <a href="overmij.html">Wie ben ik</a>
-            <a href="kunst.html">Kunst</a>
-            <a href="werk.html">Werk</a>
-            <a href="">------</a>
-            <a href="www.instagram.com/lisanijman.art">Instagram</a>
-            <a href="https://www.linkedin.com/in/lisa-nijman-7710911b2/">LinkedIn</a>
-            <a href="https://www.facebook.com/LisaNijmanArt">Facebook</a>
-             <a href="#contact">Contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
-    </nav>
-    <!-- javascript voor de mobile first, nav word kleiner en makkelijker weer gegeven. Js moet in html om te werken ??-->
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-    <header class="werk">
-        <h1>Communication Multimedia and Design</h1>
-        <h2>CMD - Amsterdam</h2>
-        <h3>Hogeschool van Amsterdam</h3>
+    <header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+
+                <a href="index.html"><img src="img/Logo-naam.png" alt="Logo Lisa Nijman"></a>
+
+                <a href="werk.html" class="active">Portfolio Design</a>
+
+                <a href="kunst.html">Portfolio Art</a>
+
+                <a href="overmij.html">About</a>
+
+                <a href="https://www.instagram.com/lisanijman.art">Instagram</a>
+
+                <a href="https://www.linkedin.com/in/lisa-nijman-7710911b2/">LinkedIn</a>
+
+                <a href="https://www.facebook.com/LisaNijmanArt">Facebook</a>
+
+                <a href="#contact">Contact</a>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
     </header>
 
+    <main class="cmd">
+        <section>
+            <h1>Communication Multimedia and Design</h1>
+            <h2>Hogeschool van Amsterdam</h2>
+        </section>
 
-    <section class="J2" id="J2">
-        <h3>Jaar 2 - Recentse werk</h3>
-        <div class="flex-container">
-            <div class="projectbeyond">
-                <h4>Project Beyond - Teamverband</h4>
-                <p>Case: Telefoon irritaties <br /> De telefoon neemt ons leven over en is niet meer weg te denken. Elk moment van de dag kijken we naar foto’s op Instagram, berichten op Facebook of lezen we het nieuws online. Op sommige momenten is dit niet wenselijk, zoals bij het uitgaan met je vrienden. Niet alleen kijken we op ons telefoon als we niks te doen hebben, ook als we iets zouden moeten doen kijken we toch. We raken afgeleid, afwezig en asociaal, tot ergernis van onze omgeving.</p>
-            </div>
-            <!-- 1 buttons om de pdfs te bekijken -->
-            <div> <iframe src="pdf/205_Team5_projectBeyond.pdf" frameborder="0"></iframe></div>
-        </div>
 
-        <div class="flex-container">
-            <div class="contentdelivery" id="cd">
-                <h4>Content Delivery - Teamverband</h4>
-                <p>Case: Afval verminderen rond gebouwen. <br /> Zwerfafval is een groot probleem en heeft een negatieve impact op zowel dier, mens en natuur. Daarnaast zijn er genoeg andere redenen om dit probleem aan te pakken. Wij gaan ons focussen op zwerfafval rond het Theo Thijssenhuis, een locatie van de HvA. Lees ons onderzoek in het pdf bestand hiernaast. </p>
+        <section class="J2" id="J2">
+            <h3>Jaar 2</h3>
+            <h4>Semester 1</h4>
+            <div class="flex-container">
+                <div>
+                    <h4>Visualisatie van een Songtekst</h4>
+                    <p>Vormgeving van een zelfgekozen liedje door middel van typografie en vormen.</p>
+                </div>
+                <div>
+                    <video controls muted>
+                        <source src="vid/Lisa_Nijman_Vormgeving.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
-            <div> <iframe src="pdf/205_team3_eindverslag_v1.0.pdf" frameborder="0"></iframe></div>
-        </div>
 
-        <div class="flex-container">
-            <div class="ubicomp" id="ubi">
-                <h4>Ubicomp - Individueel</h4>
-                <p>Case: Zorg ervoor dat de gebruiker niet te lang achter zijn laptop zit. <br /> Nu iedereen thuis zit met corona werkt of studeert ook vrijwel iedereen vanuit huis. Dit gebeurt vaak achter een laptop of computer, waarbij de houding van de gebruiker niet altijd even goed is. Daarbij zit de gebruiker vaak te lang achter zijn computer. Lees in het PDF hiernaast hoe ik het oplossen van dit probleem heb aangepakt. </p>
+            <div class="flex-container">
+                <div>
+                    <h4>MyTrip - Reisapp ontwerp</h4>
+                    <p>Project Web stond in het teken van het ontwerpen van een reisapp.<br /><br />
+                        Een ‘travel-webiste’ bedenk er maar eens één. Een die nog niet bestaat.
+                        Door middel van het onderzoeken van verschillende API’s is MyTrip
+                        tot stand gekomen. MyTrip is een website waar de gebruiker zijn/haar
+                        wereldreis kan plannen en al zijn informatie binnen één dienst kan
+                        bewaren. Zo houd de gebruiker overzicht en kan hij/zij met een gerust
+                        gevoel op reis.</p>
+                </div>
+                <div>
+                    <iframe src="pdf/Design%20Ratio_ProjectWeb.pdf" frameborder="0"></iframe>
+                    <iframe src="pdf/Prototypes_Lisa_Nijman_205.pdf" frameborder="0"></iframe>
+                </div>
             </div>
-            <div><iframe src="pdf/klas205-LisaNijman.pdf" frameborder="0"></iframe></div>
-        </div>
-    </section>
 
-    <section class="J1" id="J1">
-        <h3>Jaar 1 - Archief</h3>
-        <div class="flex-container">
-            <div class="maatschapijinteractie">
-                <h4>Maatschappij en Interactie - Individueel</h4>
-                <p>Onderzoek een dienst en hoe deze van invloed is op de gebruiker en de maatschappij. In het onderzoek hiernaast heb ik mij gefocust op de dienst Spotify. Waarbij ik gekeken heb naar alle methodes die Spotify gebruikt om jou als gebruiker 'verslaafd' te houden aan hun app. </p>
+            <div class="flex-container">
+                <div class="projectbeyond">
+                    <h4>Bulb - Interactief licht</h4>
+                    <p><strong>Case: Telefoon irritaties</strong> <br /> De telefoon neemt ons leven over en is niet meer weg te denken. Elk moment van de
+                        dag kijken we naar foto’s op Instagram, berichten op Facebook of lezen we het nieuws
+                        online. Op sommige momenten is dit niet wenselijk, zoals bij het uitgaan met je vrienden.
+                        Niet alleen kijken we op ons telefoon als we niks te doen hebben, ook als we iets zouden
+                        moeten doen kijken we toch. We raken afgeleid, afwezig en asociaal, tot ergernis van
+                        onze omgeving. <br /><br /> Wij ontwierpen BULB om dit probleem op te lossen. </p>
+                </div>
+                <!-- 1 buttons om de pdfs te bekijken -->
+                <div> <iframe src="pdf/205_Team5_projectBeyond.pdf" frameborder="0"></iframe></div>
             </div>
-            <div><iframe src="pdf/Lisa.Nijman.Grafiet.M&IProcesboek.pdf" frameborder="0"></iframe></div>
-        </div>
 
-        <div class="flex-container">
-            <div class="passieproject" id="pp">
-                <h4>Passie Project - Teamverband</h4>
-                <p>Bij dit project mochten wij in duo's of individueel een project bedenken wat wij graag zouden willen doen. Ik vormde een duo met Emma Kengen en wij gingen op onderzoek uit hoe je het beste een webshop kan opzetten. </p>
+            <div class="flex-container">
+                <div class="contentdelivery" id="cd">
+                    <h4>Afval rond gebouwen verminderen - Interactief systeem ontwerp</h4>
+                    <p>Case: Afval verminderen rond gebouwen. <br /> Zwerfafval is een groot probleem en heeft een negatieve impact op zowel dier, mens en natuur. Daarnaast zijn er genoeg andere redenen om dit probleem aan te pakken. Wij gaan ons focussen op zwerfafval rond het Theo Thijssenhuis, een locatie van de HvA. Lees ons onderzoek in het pdf bestand hiernaast. </p>
+                </div>
+                <div> <iframe src="pdf/205_team3_eindverslag_v1.0.pdf" frameborder="0"></iframe></div>
             </div>
-            <div> <iframe src="pdf/Productbiografie%20Project%20Passie.pdf" frameborder="0"></iframe> </div>
-        </div>
+        </section>
 
-        <div class="flex-container">
-            <div class="ia" id="ia">
-                <h4>Informatie Architectuur - Individueel</h4>
-                <p>Omroep Max vraagt jou om de begeleidende web, iOS óf Android app te ontwerpen
-                    voor het vinden van workshops en het indienen en beoordelen van baksels. De app moet
-                    alle doelen helemaal ondersteunen. <br />
-                    Nb. Je hoeft geen rekening te houden met de huidige websites en apps van de HHB.</p>
+        <section class="J1" id="J1">
+            <h3>Jaar 1 - Archief</h3>
+            <div class="flex-container">
+                <div class="maatschapijinteractie">
+                    <h4>Waarom werkt Spotify zo verslavend zonder dat je dat door hebt?</h4>
+                    <p>In dit onderzoek word Spotify onder de loep gelegd. Hoe is Spotify van invloed op gebruiker? Merk je hier bewust iets van? <br /> <br />
+                    Alle methodes die Spotify gebruikt zorgen ervoor dat jij je blij en prettig voelt bij het gebruik van hun dienst. Onbewust werkt dit ook verslavend. Na mijn onderzoek schreef ik een betoog <strong>('Spotify, hoe gaat het nu met?' pagina 35.)</strong> over Spotify en mijn gebruik. </p>
+                </div>
+                <div><iframe src="pdf/Lisa.Nijman.Grafiet.M&IProcesboek.pdf" frameborder="0"></iframe></div>
             </div>
-            <div> <iframe src="pdf/Lisa.Nijman.Grafiet.HHB.IA.1.0V.pdf" frameborder="0"></iframe> </div>
-        </div>
 
-        <div class="flex-container">
-            <div class="webapplicaties" id="wa">
-                <h4>Webapplicaties - Individueel</h4>
-                <p>Case: Bouw en onderbouw een webapplicatie voor een sportschool genaamd EAZYF!T. Onderbouw door middel van een video die je naar de klant gaat sturen, waarom dit de beste keuze is voor jouw klant. </p>
+            <div class="flex-container">
+                <div class="passieproject" id="pp">
+                    <h4>Opzetten van een webshop</h4>
+                    <p>In een duo zijn wij aan de slag gegaan om uit te zoeken wat er allemaal komt kijken bij het opzetten van een eigen webshop. Van budget tot producten en online tools. Wij gebruikten als product zelfgemaakte 'Zines' en zochten uit wat het beste voor ons werkte. </p>
+                </div>
+                <div> <iframe src="pdf/Productbiografie%20Project%20Passie.pdf" frameborder="0"></iframe> </div>
             </div>
-            <div> <iframe src="vid/Lisa.Nijman.Grafiet.Webapp.Video.M3.mp4" frameborder="0"></iframe></div>
-        </div>
 
-        <div class="flex-container">
-            <div class="isga" id="isga">
-                <h4>ISGA App - Individueel</h4>
-                <p>Ontwerp een app gebaseerd op de International Student Guide Amsterdam.</p>
+            <div class="flex-container">
+                <div class="ia" id="ia">
+                    <h4>App ontwerp voor Heel Holland Bakt.</h4>
+                    <p>Case-omschrijving:<br />
+                       Omroep Max vraagt jou om de begeleidende web, iOS óf Android app te ontwerpen
+                        voor het vinden van workshops en het indienen en beoordelen van baksels. De app moet
+                        alle doelen helemaal ondersteunen. <br />
+                        Nb. Je hoeft geen rekening te houden met de huidige websites en apps van de HHB.</p>
+                </div>
+                <div> <iframe src="pdf/Lisa.Nijman.Grafiet.HHB.IA.1.0V.pdf" frameborder="0"></iframe> </div>
             </div>
-            <div> <iframe src="pdf/documentatie-Lisa.Nijman.Grafiet.pdf" frameborder="0"></iframe> </div>
-        </div>
 
-        <div class="flex-container">
-            <div class="npd" id="npd">
-                <h4>New Product Development</h4>
-                <p></p>
+            <div class="flex-container">
+                <div class="isga" id="isga">
+                    <h4>Visuele weergave van proces & Ontwerp van App</h4>
+                    <p>Voor het ontwerpen van de ISGA - app moesten wij een documentatie bijhouden. <br /> <br /> Voor deze opdracht ontwierp ik een mobiele app die ervoor moest zorgen dat internationale studenten door middel van een spel nieuwe nederlandse woorden leren. Deze app staat online via:
+                    <br /> <br />
+                    https://oege.ie.hva.nl/~nijmanl/ISGO/</p>
+                </div>
+                <div> <iframe src="pdf/documentatie-Lisa.Nijman.Grafiet.pdf" frameborder="0"></iframe> </div>
             </div>
-            <div> <iframe src="pdf/Ontwerphandleiding.Lisa.Nijman.Grafiet.pdf" frameborder="0"></iframe>
-                <iframe src="pdf/Productbiografie.DeHomeschoolers.Grafiet.NPD.pdf" frameborder="0"></iframe>
-            </div>
-        </div>
 
-        <div class="flex-container">
-            <div class="hci" id="hci">
-                <h4>Human Computer Interaction - Individueel</h4>
-                <p>Ontwerp een website voor verkoop van Pinata's. Doe dit met pen en papier.</p>
-            </div>
-            <div> <iframe src="pdf/HCI_eindopdracht_Lisa_Nijman_Grafiet.pdf" frameborder="0"></iframe> </div>
-        </div>
+            <div class="flex-container">
+                <div class="npd" id="npd">
+                    <h4>New Product Development</h4>
+                    <p>In deze opdracht gaan we aan de slag voor de Hogeschool van Amsterdam. Zij willen dat de
+online omgeving, net als de fysieke locaties, een prettige, veilige, goede en zeker ook leuke
+leeromgeving voor alle studenten wordt. Om dit te kunnen bereiken, gaan we aan de slag met
+het ontwerpen van een interactief digitaal product waarin een nieuwe technologie is verwerkt. Dit
+houdt in, dat er een interactie moet kunnen plaatsvinden tussen de applicatie en de gebruiker.
+               <br /> <br/>
+               Wij ontwierpen de 'Focus ON!'. De Focus ON! is een smart apparaat, die in verbinding staat met de bijbehorende Focus ON! app door middel van wifi. De Focus ON! bezit speakers rondom het gehele model en een lamp die een fijne gloed afgeeft. De kleur van het licht veranderd mee met het thema dat geselecteerd wordt. Groen voor inspiratie mode, aangezien deze kleur creativiteit opwekt. Blauw voor motivatie mode en zo door. De Focus ON! zet je telefoon op 'niet storen', zodra je een thema activeert. Zo kun je volledig gefocused en ongestoord doorwerken.  (Pagina 68, productposter) </p>
+                </div>
+                <div><iframe src="pdf/Productbiografie.DeHomeschoolers.Grafiet.NPD.pdf" frameborder="0"></iframe> <iframe src="pdf/Ontwerphandleiding.Lisa.Nijman.Grafiet.pdf" frameborder="0"></iframe>
 
-        <div class="flex-container">
-            <div class="ucd" id="ucd">
-                <h4>User Centered Design - Individueel</h4>
-                <p></p>
+                </div>
             </div>
-            <div> <iframe src="pdf/Lisa.Nijman.POSTER.pdf" frameborder="0"></iframe>
-                <iframe src="pdf/Lisa.Nijman.PROCESVERSLAG.pdf" frameborder="0"></iframe>
-            </div>
-        </div>
 
-        <div class="flex-container">
-            <div class="content" id="content">
-                <h4>Content - Teamverband</h4>
-                <p>Ga opzoek naar een 'lelijke' website en bedenk een nieuw ontwerp om deze website een goed werkendende interactie te geven en een goed uitziend design.</p>
+            <div class="flex-container">
+                <div class="hci" id="hci">
+                    <h4>Lo-fi ontwerp Pinata website</h4>
+                    <p>Opdracht hierbij was om een website te ontwerpen voor het verkoop van Pinata's. De opdracht had een aantal eisen aan opties die mogelijk  moesten zijn binnen het ontwerp.</p>
+                </div>
+                <div> <iframe src="pdf/HCI_eindopdracht_Lisa_Nijman_Grafiet.pdf" frameborder="0"></iframe> </div>
             </div>
-            <div><iframe src="pdf/Ties.Lisa.Emma.Lou.Grafiet.clubstalker_website.pdf" frameborder="0"></iframe>
-                <iframe src="pdf/Ties.Lisa.Emma.Lou.Grafiet.Procesboek.pdf" frameborder="0"></iframe>
-            </div>
-        </div>
-    </section>
 
+            <div class="flex-container">
+                <div class="ucd" id="ucd">
+                    <h4>Verbetering MAAS koffie-automaat.</h4>
+                    <p>Hiernaast is een Infographic te zien over het onderzoek naar een verbetering voor de MAAS koffie-automaten. En daaronder het procesverslag van het onderzoek als naslagwerk.</p>
+                </div>
+                <div> <iframe src="pdf/Lisa.Nijman.POSTER.pdf" frameborder="0"></iframe>
+                    <iframe src="pdf/Lisa.Nijman.PROCESVERSLAG.pdf" frameborder="0"></iframe>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="content" id="content">
+                    <h4>Verbetering Huisstijl van bestaande website</h4>
+                    <p>Verbetering van de huisstijl van Club Stalker in Haarlem. Gelet op de vormgeving, content en oude huisstijl van de Club. Resulteerde in een frisse en moderne huisstijl. </p>
+                </div>
+                <div><iframe src="pdf/Ties.Lisa.Emma.Lou.Grafiet.clubstalker_website.pdf" frameborder="0"></iframe>
+                    <iframe src="pdf/Ties.Lisa.Emma.Lou.Grafiet.Procesboek.pdf" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
     <footer id="contact">
         <h2>any questions? <br />
-            find me here lisanijman@live.nl <br />
+            find me here <br /> lisanijman@live.nl
         </h2>
         <p>designed & developed by lisa nijman 2020</p>
     </footer>
 
-</body></html>
+</body>
+
+</html>

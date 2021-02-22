@@ -23,65 +23,62 @@
 </head>
 
 <body>
-    <nav>
-        <div class="topnav" id="myTopnav">
-            <a href="index.html" class="active">Home</a>
-            <a href="overmij.html">Wie ben ik</a>
-            <a href="kunst.html">Kunst</a>
-            <a href="werk.html">Werk</a>
-            <a href="">------</a>
-            <a href="www.instagram.com/lisanijman.art">Instagram</a>
-            <a href="https://www.linkedin.com/in/lisa-nijman-7710911b2/">LinkedIn</a>
-            <a href="https://www.facebook.com/LisaNijmanArt">Facebook</a>
-             <a href="#contact">Contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
-    </nav>
-    <!-- javascript voor de mobile first, nav word kleiner en makkelijker weer gegeven. Js moet in html om te werken ??-->
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
+    <header>
+        <nav>
+            <div class="topnav" id="myTopnav">
 
-    </script>
+                <a href="index.html"><img src="img/Logo-naam.png" alt="Logo Lisa Nijman"></a>
 
-    <section class="lisatwee">
+                <a href="werk.html">Portfolio Design</a>
+
+                <a href="kunst.html">Portfolio Art</a>
+
+                <a href="overmij.html" class="active">About</a>
+
+                <a href="https://www.instagram.com/lisanijman.art">Instagram</a>
+
+                <a href="https://www.linkedin.com/in/lisa-nijman-7710911b2/">LinkedIn</a>
+
+                <a href="https://www.facebook.com/LisaNijmanArt">Facebook</a>
+
+                <a href="#contact">Contact</a>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+<main class="about">
+    <section>
         <div class="flex-container">
             <div id="bovenaan">
                 <figure>
-                    <img class="portret" src="img/Portret_zwartwit.jpg" alt="timeline">
+                    <img class="portret" src="img/Portret_zwartwit-2.jpg" alt="timeline">
                     <figcaption> Lisa Nijman</figcaption>
                 </figure>
             </div>
             <div>
                 <h2>
-                    Wie ben ik?
+                    Let me introduce myself
                 </h2>
-                <p>Hoi, mijn naam is Lisa Nijman. Ik ben 20 jaar oud en woonachtig in Uitgeest, Nood Holland. Ik ben een tweedejaars student in Amsterdam aan de Hogeschool van Amsterdam, op de opleiding Communication, Mulitmedia and Design (CMD). Bij CMD heb ik in mijn eerste jaar mijn propeduese gehaald. Nadat ik mijn middelbare school afgerond had met een VWO-diploma ben ik eerst een jaar gaan studeren in Utrecht. Ik volgde de opleiding Illustration aan de Hogeschool voor de kunsten Utrecht (HKU), ook heb ik voor deze opleiding mijn propedeuse gehaald. Na dit jaar ben ik begonnen bij CMD in Amsterdam.
-                </p>
-                <br />
                 <p>
-                    Ik leer snel en ben flexibel in nieuwe situaties. Ik ben beleefd, klantvriendelijk en geduldig. Daarnaast ben ik behulpzaam, creatief en ambitieus. Een echte doorzetter en gedisciplineerd wanneer dat nodig is. Ik ben enthousiast en betrokken in het werk wat ik doe.
+                My  name is Lisa Nijman, 20 years old and I live in Uitgeest, North Holland. I am a second year student at Communication, Multimedia and Design (CMD) at the Amsterdam University of Applied Sciences.
+               I got my Propaedeutic phase  in my first year of CMD. After Highschool I went to Utrecht School of Arts to start the Bacholar Illustration. I got my Propaedeutic phase in my first year and then moved to CMD Amsterdam.
                 </p>
             </div>
         </div>
+    </section>
 
-
-        <footer id="contact">
-            <h2>nog vragen? <br />
-            vind mij hier lisanijman@live.nl <br />
-        </h2>
+</main>
+         <footer id="contact">
+            <h2>any questions? <br />
+                find me here <br /> lisanijman@live.nl
+            </h2>
             <p>designed & developed by lisa nijman 2020</p>
         </footer>
 
-
+<script src="script.js"></script>
 </body>
 
 </html>
