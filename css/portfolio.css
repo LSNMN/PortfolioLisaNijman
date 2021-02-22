@@ -26,6 +26,10 @@ h1 {
     padding: 0 40px;
 }
 
+h2 {
+  font-family: 'Slabo 27px', serif;
+}
+
 /* begin responsive nav */
 /* Add a black background color to the top navigation */
 .topnav {
@@ -54,6 +58,7 @@ h1 {
     text-decoration: none;
     font-size: 17px;
     font-family: 'Slabo 27px', serif;
+    background-color: #AAB869
 }
 
 /* Change the color of links on hover */
